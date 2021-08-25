@@ -1,5 +1,5 @@
-#ifndef __EXCPTIONS_H__
-#define __EXCPTIONS_H__
+#ifndef __EXCEPTIONS_H__
+#define __EXCEPTIONS_H__
 
 #include <exception>	// std::exception
 
@@ -13,4 +13,4 @@ public:
 	const char* what() const noexcept;
 };
 
-#endif
+#endif // __EXCEPTIONS_H__

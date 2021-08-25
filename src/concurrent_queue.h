@@ -105,8 +105,9 @@ public:
 			}
 			catch(std::exception& e)
 			{
-				// Consider adding catch for cancellation where promise is not
-				// removed here. Instead, remove promise in close() method
+				// Consider adding catch for cancellation_token that does not
+				// remove the promise. Instead, remove promise in the close()
+				// method (after it is cancelled)
 				L.lock();
 				auto it = getters.cbegin();
 				if(find_element(it, getters.cend(), &getter))
@@ -165,4 +166,4 @@ protected:
 	std::mutex L;
 };
 
-#endif
+#endif // __CONCURRENT_QUEUE__

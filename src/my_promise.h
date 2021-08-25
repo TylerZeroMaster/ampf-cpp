@@ -38,4 +38,4 @@ protected:
 	bool cancelled;
 };
 
-#endif
+#endif // __MY_PROMISE__

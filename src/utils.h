@@ -15,4 +15,4 @@ bool find_element(IT& it, const IT end, const T element) noexcept
 	return false;
 }
 
-#endif
+#endif // __UTILS_H__
