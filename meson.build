@@ -1,7 +1,7 @@
 project('concurrent_queue_ex', 'cpp',
 	version: '1.0.4-beta',
-	license: 'MIT',
-	meson_version: '>= 0.43.0'
+	license: 'GNU GPLv3',
+	meson_version: '>= 0.53.0'
 )
 
 gmp_version = '>= 6.2.1'
