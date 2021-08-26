@@ -6,7 +6,7 @@ sources = [
 ]
 
 executable(
-  'concurrent_queue_ex',
+  'ampf-cpp',
   sources,
   include_directories: include_dirs,
   dependencies: deps

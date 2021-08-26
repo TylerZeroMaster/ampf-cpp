@@ -1,5 +1,5 @@
 /*
- *   This file is part of concurrent_queue_ex which demonstrates one 
+ *   This file is part of ampf-cpp which demonstrates one 
  *   implementation of a concurrent queue by finding Mersenne prime numbers
  *   Copyright (C) 2021  Tyler Nullmeier
  *
